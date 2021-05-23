@@ -22,7 +22,7 @@
                     <div class="col-md-2"><input type="password" class="form-control" name="password" placeholder="<?php echo $lang['FORM_PASS']; ?>"></div>
                     <div class="col-md-2"><input type="text" class="form-control" name="auth" placeholder="<?php echo $lang['FORM_2FA']; ?>"></div>
                     <div class="col-md-2"><button type="submit" class="btn btn-default"><?php echo $lang['FORM_LOGIN']; ?></button></div>
-                    <div class="g-recaptcha" data-sitekey=<?=$public?>></div>
+                    <!--<div class="g-recaptcha" data-sitekey=<?=$public?>></div>-->
                     <br>
                 </form>
             </div>
@@ -35,7 +35,7 @@
                     <div class="col-md-2"><input type="password" class="form-control" name="password" placeholder="<?php echo $lang['FORM_PASS']; ?>"></div>
                     <div class="col-md-2"><input type="password" class="form-control" name="confirmPassword" placeholder="<?php echo $lang['FORM_PASSCONF']; ?>"></div>
                     <div class="col-md-2"><button type="submit" class="btn btn-default"><?php echo $lang['FORM_SIGNUP']; ?></button></div>
-                    <div class="g-recaptcha" data-sitekey=<?=$public?>></div>
+                    <!--<div class="g-recaptcha" data-sitekey=<?=$public?>></div>-->
                 </form>
            </div>
      </div>

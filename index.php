@@ -308,10 +308,10 @@ if (!empty($_SESSION['user_session'])) {
     $error = array('type' => "none", 'message' => "");
     // verificar a chave secreta
     $response = null;
-    $reCaptcha = new ReCaptcha($secret);
-    $response = $reCaptcha->verifyResponse($_SERVER["REMOTE_ADDR"], $_POST["g-recaptcha-response"]);
-    if ($response != null && $response->success) {
-
+    //$reCaptcha = new ReCaptcha($secret);
+    //$response = $reCaptcha->verifyResponse($_SERVER["REMOTE_ADDR"], $_POST["g-recaptcha-response"]);
+    //if ($response != null && $response->success) {
+    if (true) {
         $username;$password;$auth;$captcha;
         if(isset($_POST['username']))
           $username=$_POST['username'];
