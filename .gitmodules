@@ -1,0 +1,3 @@
+[submodule "EasyBitcoin-PHP"]
+	path = EasyBitcoin-PHP
+	url = https://github.com/silverchen0402/EasyBitcoin-PHP.git
