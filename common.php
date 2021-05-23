@@ -12,7 +12,8 @@ header("X-Content-Type-Options: nosniff");
 
 define("WITHDRAWALS_ENABLED", true); //Disable withdrawals during maintenance
 
-include('jsonRPCClient.php');
+//include('jsonRPCClient.php');
+include('easybitcoin.php');
 include('classes/Client.php');
 include('classes/User.php');
 
