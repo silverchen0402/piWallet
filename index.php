@@ -1,6 +1,6 @@
 <?php
 define("IN_WALLET", true);
-require_once "classes/recaptchalib.php";
+//require_once "classes/recaptchalib.php";
 include('common.php');
 
 $mysqli = new Mysqli($db_host, $db_user, $db_pass, $db_name);
