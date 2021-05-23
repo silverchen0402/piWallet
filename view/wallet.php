@@ -90,6 +90,7 @@ if ($admin)
 </thead>
 <tbody>
 <?php
+print_r($addressList);
 foreach ($addressList as $address)
 {
 echo "<tr><td>".$address."</t>";?>
